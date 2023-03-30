@@ -1,4 +1,5 @@
-1.
+**Create only one metric at a time**
+
 ```
 {
     "name": "audience_orders",
@@ -18,6 +19,7 @@
     "source": "audience_metrics",
 }
 ```
+
 ```
 {
     "name": "audience_visits",
@@ -27,6 +29,7 @@
     "source": "audience_metrics",
 }
 ```
+
 ```
 {
     "name": "audience_buy_value",
@@ -36,6 +39,7 @@
     "source": "audience_metrics",
 }
 ```
+
 ```
 {
     "name": "audience_revenue_per_visitor",
@@ -58,6 +62,7 @@
     "source": "audience_metrics",
 }
 ```
+
 ```
 {
     "name": "audience_aov",
