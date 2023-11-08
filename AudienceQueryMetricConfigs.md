@@ -6,7 +6,7 @@
     "aggregation_type": "sum",
     "type": "raw",
     "label": "audience_orders",
-    "source": "audience_metrics",
+    "source": "audience_metrics"
 }
 ```
 
@@ -16,7 +16,7 @@
     "aggregation_type": "sum",
     "type": "raw",
     "label": "audience_visitors",
-    "source": "audience_metrics",
+    "source": "audience_metrics"
 }
 ```
 
@@ -26,7 +26,7 @@
     "aggregation_type": "sum",
     "type": "raw",
     "label": "audience_visits",
-    "source": "audience_metrics",
+    "source": "audience_metrics"
 }
 ```
 
@@ -36,7 +36,7 @@
     "aggregation_type": "sum",
     "type": "raw",
     "label": "audience_buy_value",
-    "source": "audience_metrics",
+    "source": "audience_metrics"
 }
 ```
 
@@ -48,7 +48,7 @@
     "numerator": {"name": "audience_buy_value", "type": "raw"},
     "denominator": {"name": "audience_visitors", "type": "raw"},
     "label": "audience_revenue_per_visitor",
-    "source": "audience_metrics",
+    "source": "audience_metrics"
 }
 ```
 ```
@@ -59,7 +59,7 @@
     "numerator": {"name": "audience_orders", "type": "raw"},
     "denominator": {"name": "audience_visits", "type": "raw"},
     "label": "audience_conversion_rate",
-    "source": "audience_metrics",
+    "source": "audience_metrics"
 }
 ```
 
@@ -71,6 +71,6 @@
     "numerator": {"name": "audience_buy_value", "type": "raw"},
     "denominator": {"name": "audience_orders", "type": "raw"},
     "label": "audience_aov",
-    "source": "audience_metrics",
+    "source": "audience_metrics"
 }
 ```
